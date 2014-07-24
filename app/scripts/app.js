@@ -9,7 +9,7 @@
  * Main module of the application.
  */
 angular
-  .module('studyApp', [
+  .module('partyBidApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
@@ -19,7 +19,7 @@ angular
   ])
   .config(function ($routeProvider) {
     $routeProvider
-      .when('/', {
+        .when('/', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })

@@ -7,7 +7,7 @@
  * # AboutCtrl
  * Controller of the studyApp
  */
-angular.module('studyApp')
+angular.module('partyBidApp')
   .controller('AboutCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
